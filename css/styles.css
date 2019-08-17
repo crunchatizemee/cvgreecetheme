@@ -1,0 +1,174 @@
+/***** portfolio inspo
+
+https://sajrob.github.io/CV/
+
+https://lamsdev.github.io/CSS-HTML-Personal-Site/
+
+ ***/
+/***** tag selectors ***/
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  color: #0d2644;
+  font-family: 'Satisfy', cursive;
+  font-size: 6rem;
+  margin-bottom: 0;
+}
+
+h2 {
+  color: #0d2644;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+}
+
+h3 {
+  color: #487DB1;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.3rem;
+}
+
+h4 {
+  color: #0d2644;
+  margin-top: 5px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+}
+
+hr {
+  background-color: #487DB1;
+  border: none;
+  height: 1px;
+  width: 25%;
+}
+
+img {
+  width: 10%;
+}
+
+p {
+  color: #0d2644;
+  line-height: 1.7;
+}
+
+a {
+  color: #0d2644;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/***** class selectors ***/
+.bottom-container {
+  background-color: #7fa8be;
+  height: 150px;
+}
+
+.button {
+  background: #7FA8BE;
+  background-image: -webkit-linear-gradient(top, #6f94a6, #0d2644);
+  background-image: -moz-linear-gradient(top, #6f94a6, #0d2644);
+  background-image: -ms-linear-gradient(top, #6f94a6, #0d2644);
+  background-image: -o-linear-gradient(top, #6f94a6, #0d2644);
+  background-image: linear-gradient(to bottom, #6f94a6, #0d2644);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.button:hover {
+  background: #8cb8ce;
+  background-image: -webkit-linear-gradient(top, #8cb8ce, #6f94a6);
+  background-image: -moz-linear-gradient(top, #8cb8ce, #6f94a6);
+  background-image: -ms-linear-gradient(top, #8cb8ce, #6f94a6);
+  background-image: -o-linear-gradient(top, #8cb8ce, #6f94a6);
+  background-image: linear-gradient(to bottom, #8cb8ce, #6f94a6);
+  text-decoration: none;
+}
+
+.contact-me {
+  margin: auto;
+  padding-bottom: 100px;
+  width: 35%;
+}
+
+.copyright {
+  color: white;
+  font-size: .8rem;
+}
+
+.circle-profile {
+  margin-top: 100px;
+  width: 45%;
+}
+
+.divider {
+  margin: 50px auto 50px auto;
+  width: 8%;
+}
+
+.footer-link:hover {
+  color: white;
+}
+
+.greek-building {
+  float: right;
+  padding-left: 25px;
+  width: 30%;
+}
+
+.greek-flag {
+  float: left;
+  padding-right: 25px;
+  width: 25%;
+}
+
+.greek-vase {
+  float: left;
+  padding-right: 20px;
+  width: 25%;
+}
+
+.middle-container {
+  background-color: #fffaea;
+  margin: auto;
+}
+
+.profile {
+  margin: auto;
+  width: 35%;
+}
+
+.skill-row1 {
+  margin:80px auto 10px auto;
+  text-align: right;
+  width: 40%;
+}
+
+.skill-row2 {
+  margin: 70px auto 10px auto;
+  text-align: left;
+  width: 40%;
+}
+
+.skill-row3 {
+  margin: 80px auto 50px auto;
+  text-align: right;
+  width: 40%;
+}
+
+.santorinisunsetstamp {
+  width: 30%;
+}
+
+.top-container {
+  background-color: #7fa8be;
+  padding-top: 100px;
+}
